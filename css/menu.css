@@ -8,7 +8,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2vw 2vw;
+    padding: 2vw;
     height: 8vh;
     background-color: #052D23;
     transition: transform 0.5s ease, box-shadow 0.3s ease;
@@ -39,7 +39,7 @@ header ul {
 header ul li {
     font-size: 1.5rem;
     font-weight: 700;
-    font-family: 'aeonik', sans-serif;
+    font-family: aeonik, sans-serif;
     cursor: pointer;
 }
 
@@ -56,5 +56,5 @@ header ul li a:hover {
 
 /* Sticky scroll effet */
 header.sticky-scroll {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 20%);
 }
