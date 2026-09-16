@@ -9,7 +9,7 @@
 .section h3 {
     margin-top: 3vh;
     margin-bottom: 2rem;
-    font-family: 'Tusker', sans-serif;
+    font-family: Tusker, sans-serif;
     color: #301B37;
 }
 
@@ -27,9 +27,9 @@
 }
 
 .card {
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border-radius: 1.125rem;
-    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%);
     width: min(90vw, 21rem);
     height: auto;
     display: flex;
@@ -74,14 +74,14 @@
 
 .card-body {
     padding: 1.25rem;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #fff;
     text-align: left;
 }
 
 .card-body h4 {
     font-size: 1.125rem;
     font-weight: bold;
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0.5rem;
 }
 
 .card-body p {
@@ -92,7 +92,7 @@
 
 /* Carousel */
 .carousel {
-    background-color: #ffffff;
+    background-color: #fff;
     position: relative;
     height: 17rem;
     overflow: hidden;
@@ -126,7 +126,7 @@
 .dot {
     width: 0.625rem;
     height: 0.625rem;
-    background-color: rgba(69, 63, 63, 0.6);
+    background-color: rgb(69 63 63 / 60%);
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.3s;

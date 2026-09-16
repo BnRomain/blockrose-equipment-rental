@@ -2,14 +2,14 @@
 
 /* Déclaration des polices */
 @font-face {
-    font-family: 'Tusker'; /* Choisis un nom */
+    font-family: Tusker; /* Choisis un nom */
     src: url('../fonts/Tusker.otf') format('opentype'); /* adapte le chemin */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Aeonik';
+    font-family: Aeonik;
     src: url('../fonts/Aeonik.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -30,7 +30,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #FFFCE7;
-    font-family: 'Aeonik', sans-serif;
+    font-family: Aeonik, sans-serif;
     font-size: 16px;
     overflow-x: hidden;
     scroll-behavior: smooth;

@@ -5,8 +5,8 @@ footer {
     background-color: #052D23;
     color: white;
     text-align: center;
-    padding: 10px 20px 10px 20px;
-    font-family: "Aeonik", sans-serif;
+    padding: 10px 20px;
+    font-family: Aeonik, sans-serif;
     font-size: 0.9rem;
     line-height: 1.6;
     margin-top: auto;
@@ -92,7 +92,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffffff;
+    color: #fff;
 }
 
 /* Responsive */
